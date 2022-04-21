@@ -5,7 +5,7 @@ import data from './data2.json'
 //This the main landing page for the phot gallery.
 //It is the first page that is loaded when the app is started.
 //`/${Object.keys(data)[0]}` Same as /Nippon (write up more later) I need this explained in class. 
-export function Home() {
+export function Landing() {
   console.log(Object.keys(data)[0])
   return (
     <>

@@ -2,12 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import data from './data2.json'
 
-// type data = {
-//   title: string
-//   description: string
-//   photos: string[]
 //This the main landing page for the phot gallery.
 //It is the first page that is loaded when the app is started.
+//`/${Object.keys(data)[0]}`I need this explained in class. 
 export function Home() {
   return (<>
     <div>

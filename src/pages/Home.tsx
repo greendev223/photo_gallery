@@ -18,6 +18,7 @@ export function Home() {
             <p>
               {data.Nippon.description}
             </p>
+            <img className="pic-1"src={data.Nippon.photos[0].imageURL} alt={data.Nippon.title} />
           </div>
         </section>
       </main>

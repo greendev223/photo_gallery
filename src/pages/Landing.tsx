@@ -25,7 +25,9 @@ export function Landing() {
                 src={data.Nippon.photos[0].imageURL}
                 alt={data.Nippon.photos[0].title}
               />
-              <h2 className="Pic-1">
+            </div>
+            <div className="Landing">
+              <h2 className="Pic-2">
                 <Link to={`/${Object.keys(data)[1]}`}>Fixie</Link>
               </h2>
               <p>{data.Fixed.description}</p>

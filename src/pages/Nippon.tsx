@@ -19,7 +19,7 @@ export function Nippon() {
             </Link>
           </li>
           <li>
-            <Link to={`/Nippon`}>Nippon</Link>
+            <Link to={`/Fixie`}>Fixie</Link>
           </li>
         </ul>
       </nav>

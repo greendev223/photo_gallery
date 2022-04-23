@@ -49,3 +49,18 @@ section {
   justify-content: start;
   padding : 2rem;
 }
+.pic-multiple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  width: 500px;
+  height: auto;
+  border : 1px solid black;
+  padding : 2rem;
+  margin: 2rem;
+
+}

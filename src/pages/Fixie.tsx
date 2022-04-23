@@ -22,7 +22,7 @@ export function Fixie() {
           </li>
         </ul>
       </nav>
-      <h2>{data.Fixie.title}</h2>
+      <h3>{data.Fixie.title}</h3>
       <div className="pic-multiple">
         {data.Fixie.photos.map((photo, index) => {
           return (

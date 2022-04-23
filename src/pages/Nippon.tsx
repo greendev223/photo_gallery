@@ -23,7 +23,7 @@ export function Nippon() {
           </li>
         </ul>
       </nav>
-      <h2>{data.Nippon.photos[0].title}</h2>
+      <h3>{data.Nippon.photos[0].title}</h3>
       <div className="pic-multiple">
         {data.Nippon.photos.map((photo, index) => {
           return (

@@ -5,7 +5,13 @@ import { Route, Routes } from 'react-router'
 import { Landing } from './pages/Landing'
 import { Nippon } from './pages/Nippon'
 import { Fixie } from './pages/Fixie'
+import {Details} from './pages/Details'
 
+export type PhotosType = {
+  title: string
+  description: string
+  photos: { title: string; imageURL: string }[]
+}
 
 export function App() {
   return (
@@ -19,6 +25,7 @@ export function App() {
             <Route path="/" element={<Landing />}/>
             <Route path="Nippon" element={<Nippon />}/>
             <Route path="Fixie" element={<Fixie />}/>
+            <Route path='/:categories/:photoIndex' element={<Details />}/>
             <Route path='*' element={'noMatch'}/>
         </Routes>
       </main>

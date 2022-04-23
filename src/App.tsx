@@ -22,11 +22,11 @@ export function App() {
       </header>
       <main>
         <Routes>
-            <Route path="/" element={<Landing />}/>
-            <Route path="Nippon" element={<Nippon />}/>
-            <Route path="Fixie" element={<Fixie />}/>
-            <Route path='/:categories/:photoIndex' element={<Details />}/>
-            <Route path='*' element={'noMatch'}/>
+          <Route path="/" element={<Landing />} />
+          <Route path="Nippon" element={<Nippon />} />
+          <Route path="Fixie" element={<Fixie />} />
+          <Route path="/:categories/:photoIndex" element={<Details />} />
+          <Route path="*" element={'noMatch'} />
         </Routes>
       </main>
     </div>

@@ -14,27 +14,29 @@ export function Landing() {
           {/* <button>
            Home
           </button> */}
-          <section>
-            <div className="Landing">
+          <section className="Landing">
+
+            <div className="container">
               <h2 className="Pic-1">
-                <Link to={`/${Object.keys(data)[0]}`}>Nippon</Link>
+                <Link to={`/Nippon`}>Nippon</Link>
               </h2>
               <p>{data.Nippon.description}</p>
               <img
                 className="pic-1"
-                src={data.Nippon.photos[0].imageURL}
-                alt={data.Nippon.photos[0].title}
+                src={data.Nippon.photos[2].imageURL}
+                alt={data.Nippon.photos[2].title}
               />
             </div>
-            <div className="Landing">
+
+            <div className="container">
               <h2 className="Pic-2">
                 <Link to={`/${Object.keys(data)[1]}`}>Fixie</Link>
               </h2>
-              <p>{data.Fixed.description}</p>
+              <p>{data.Fixie.description}</p>
               <img
-                className="pic-1"
-                src={data.Fixed.photos[0].imageURL}
-                alt={data.Fixed.photos[0].title}
+                className="pic-2"
+                src={data.Fixie.photos[0].imageURL}
+                alt={data.Fixie.photos[0].title}
               />
             </div>
           </section>

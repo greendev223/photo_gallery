@@ -16,11 +16,10 @@ export function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Landing />}>
-            <Route path="/Nippon" element={<Nippon />}/>
-            <Route path="/Fixie" element={<Fixie />}/>
+            <Route path="/" element={<Landing />}/>
+            <Route path="Nippon" element={<Nippon />}/>
+            <Route path="Fixie" element={<Fixie />}/>
             <Route path='*' element={'noMatch'}/>
-          </Route>
         </Routes>
       </main>
     </div>

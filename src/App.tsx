@@ -6,6 +6,7 @@ import { Landing } from './pages/Landing'
 import { Nippon } from './pages/Nippon'
 import { Fixie } from './pages/Fixie'
 import {Details} from './pages/Details'
+import { Link } from 'react-router-dom'
 
 export type PhotosType = {
   title: string
@@ -29,6 +30,11 @@ export function App() {
           <Route path="*" element={'noMatch'} />
         </Routes>
       </main>
+      <footer>
+        <Link to="https://www.amheiser.me/"> 
+        <p>Created by Amheiser</p>
+        </Link>
+      </footer>
     </div>
   )
 }

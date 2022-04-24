@@ -27,10 +27,11 @@ export function Details() {
           </li>
         </ul>
       </nav>
-      <h1>
+      <h1 className="last-title">
         {data[params.categories!].photos[Number(params.photoIndex)].title}
       </h1>
       <img
+        className="last"
         src={
           data[params.categories!].photos[Number(params.photoIndex)].imageURL
         }

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export function Details() {
   const params =
-    useParams<{ categories?: 'Nippon' | 'Fixie'; photoIndex: string}>()
+    useParams<{ categories: 'Nippon' | 'Fixie'; photoIndex: string}>()
   return (
     <div>
       <nav className="breadcrumb" aria-label="breadcrumbs">

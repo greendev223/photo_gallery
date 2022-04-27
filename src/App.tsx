@@ -21,7 +21,6 @@ export function App() {
         <h1>What occupies my daydreams</h1>
         <h2>Photo Gallery of Hobbies</h2>
       </header>
-      <main>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="Nippon" element={<Nippon />} />
@@ -29,7 +28,6 @@ export function App() {
           <Route path="/:categories/:photoIndex" element={<Details />} />
           <Route path="*" element={'noMatch'} />
         </Routes>
-      </main>
       <footer>
         <Link to="https://www.amheiser.me/"> 
         <p>Created by Amheiser</p>
